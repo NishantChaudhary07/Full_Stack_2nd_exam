@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    outline: none; 
+    border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: gray;
+}
+
+.search-box{
+    margin: auto;
+    width: 100%;
+    border: 2px solid whitesmoke;
+    margin-top: 3%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#container h1{
+    color: black(5, 5, 136);
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.search-box input{
+    font-size: large;
+    width: 30%;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+.search-box button{
+    width: 12%;
+    height: 43px;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.search-box button:hover{
+   background-color: black;
+   color: aliceblue;
+}
+
+.gole{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    background-color: aliceblue;
+    width: 25%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.circle1{
+    border: 2px solid gray;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.circle2{
+    border: 2px solid pink;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.circle3{
+    border: 2px solid blue;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.circle4{
+    border: 2px solid rgb(55, 253, 55);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.circle5{
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.gray{
+    background-color: gray;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.blue{
+    background-color: rgb(7, 7, 243);
+}
+
+.green{
+    background-color: rgb(55, 253, 55);
+}
+
+.black{
+    background-color: black;
+}
+
+
+#container{
+    width: 80vw;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin: 20px auto;
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+input,button{
+    font-size: 1.8rem;
+}
